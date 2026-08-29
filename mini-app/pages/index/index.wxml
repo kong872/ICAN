@@ -1,0 +1,21 @@
+<view class="wrap">
+  <canvas 
+    type="2d" 
+    id="parkCanvas" 
+    style="width:100%;flex:1;"
+    bindtouchstart="touchStart"
+    bindtouchmove="touchMove"
+    bindtouchend="touchEnd"
+    >
+  </canvas>
+  <!--底部固定面板区域，完全脱离画布-->
+  <view class="bottom-wrap">
+    <view class="info-card">
+      <view class="info-row">目标车位：<text class="bold-text">7号车位</text></view>
+      <view class="info-row">预计步行时间：<text class="bold-text">约2分钟</text></view>
+      <view class="info-row">路线距离：<text class="bold-text">约120米</text></view>
+      <view class="arrow">></view>
+    </view>
+    <view class="start-btn" bindtap="startNav">开始导航</view>
+  </view>
+</view>
