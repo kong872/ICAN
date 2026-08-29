@@ -8,3 +8,4 @@ oled3是第二个路口处的oled显示屏的代码文件夹
 led.c是我指示灯模块的控制代码
 yolo-lprnet.py是我视觉进行yolo识别车位和车牌轮廓，lprnet识别车牌内容的代码
 lvgl.c是我显示屏进行lvgl设计反向寻车大屏的代码
+mmini-app是我用微信开发者工具写的反向寻车小程序代码
